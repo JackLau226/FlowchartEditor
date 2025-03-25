@@ -58,9 +58,9 @@ npm start
 
  - Validation will be automatically done when there is change in flowchart
  - A flowchart is valid if:
-    -- All nodes are connected
-    -- There is atmost one link coming out from State and Process
-    -- Process node need to have exactly two link coming out 
+   - All nodes are connected
+   - There is atmost one link coming out from State and Process
+   - Process node need to have exactly two link coming out 
 
 ## Examples
 

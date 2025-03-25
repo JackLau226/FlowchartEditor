@@ -130,3 +130,56 @@ export const Checkbox = styled.input`
   height: 16px;
   cursor: pointer;
 `;
+
+export const PopupOverlay = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+`;
+
+export const PopupContainer = styled.div`
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 350px;
+`;
+
+export const CloseButton = styled.button`
+  background:rgb(241, 110, 110);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 12px;
+  margin-top: 10px;
+
+  &:hover {
+    background: #ff1a1a;
+  }
+`;
+
+export const ValidationStatus = styled.div`
+  margin: 10px 0;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  color: ${props => props.isValid ? '#4CAF50' : '#F44336'};
+  
+  ul {
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  li {
+    margin: 4px 0;
+  }
+`;

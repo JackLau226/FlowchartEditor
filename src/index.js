@@ -1,3 +1,10 @@
+/**
+ * Application Entry Point
+ * 
+ * Initializes the React application and renders it to the DOM.
+ * Sets up the root element and strict mode.
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

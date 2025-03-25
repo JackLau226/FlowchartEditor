@@ -1,7 +1,18 @@
+/**
+ * Main Application Component
+ * 
+ * The root component of the flow chart editor application.
+ * Provides the basic structure and renders the editor.
+ */
+
 import React from 'react';
 import './App.css';
 import GraphEditor from './components/GraphEditor/GraphEditor';
 
+/**
+ * App Component
+ * Renders the main graph editor interface
+ */
 function App() {
   return (
     <div className="App">

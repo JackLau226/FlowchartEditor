@@ -100,6 +100,13 @@ Transform the current flowchart to representation in Python by clicking on Gener
 The output model will be a tree structure in Python.
 _Other languages will be supported in upcoming future updates_
 
+## Test
+
+Systematic tests is included in the _test_ folder. Run the test using npm.
+```bash
+npm test
+```
+
 ## Built With
 
 - React - Frontend framework

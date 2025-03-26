@@ -58,9 +58,15 @@ npm start
 
  - Validation will be automatically done when there is change in flowchart
  - A flowchart is valid if:
+<<<<<<< HEAD
     -- All nodes are connected
     -- There is atmost one link coming out from State and Process
     -- Process node need to have exactly two link coming out 
+=======
+   - All nodes are connected
+   - There is atmost one link coming out from State and Process
+   - Process node need to have exactly two link coming out 
+>>>>>>> 080d1ffdd9c0fc90f1e6914f12019e807e26b44d
 
 ## Examples
 
@@ -99,6 +105,16 @@ Logs of simulation will be shown under the editor
 Transform the current flowchart to representation in Python by clicking on Generate Script button.
 The output model will be a tree structure in Python.
 _Other languages will be supported in upcoming future updates_
+<<<<<<< HEAD
+=======
+
+## Test
+
+Systematic tests is included in the _test_ folder. Run the test using npm.
+```bash
+npm test
+```
+>>>>>>> 080d1ffdd9c0fc90f1e6914f12019e807e26b44d
 
 ## Built With
 

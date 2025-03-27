@@ -1,6 +1,7 @@
 # Flow Chart Domain-Specific Language (DSL)
 
-A visual domain-specific language for creating and editing flow diagrams with automatic code generation capabilities. This project implements a graphical DSL that allows users to design flow charts with additional features such as simulation and generating scripts.
+~~A visual domain-specific language for creating and editing flow diagrams with automatic code generation capabilities. This project implements a graphical DSL that allows users to design flow charts with additional features such as simulation and generating scripts.~~
+I thought I can use JavaScript instead of Java in Eclipse to do the project. I made the wrong decision
 
 ## Overview
 
@@ -58,15 +59,11 @@ npm start
 
  - Validation will be automatically done when there is change in flowchart
  - A flowchart is valid if:
-<<<<<<< HEAD
+
     -- All nodes are connected
     -- There is atmost one link coming out from State and Process
     -- Process node need to have exactly two link coming out 
-=======
-   - All nodes are connected
-   - There is atmost one link coming out from State and Process
-   - Process node need to have exactly two link coming out 
->>>>>>> 080d1ffdd9c0fc90f1e6914f12019e807e26b44d
+
 
 ## Examples
 
